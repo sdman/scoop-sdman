@@ -15,3 +15,4 @@ scoop install sdman/<manifestname>
 
 | Name | Version |
 | ---  | ---     |
+| Incy | 3.9.0   |
