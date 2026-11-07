@@ -25,7 +25,7 @@
     },
     "checkver": {
         "url": "https://raw.githubusercontent.com/INCY-DEV/incy-platforms/main/RELEASE.json",
-        "regex": "\"desktop\"\\s*:\\s*\\{\\s*\"version\"\\s*:\\s*\"([\\d.]+)\""
+        "jsonpath": "$.desktop.version"
     },
     "pre_install": "",
     "installer": {
