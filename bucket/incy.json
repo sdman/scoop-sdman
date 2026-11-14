@@ -1,16 +1,16 @@
 {
-    "version": "3.9.0",
+    "version": "3.9.1",
     "description": "Cross-platform proxy client based on Xray-core",
     "homepage": "https://github.com/INCY-DEV/incy-platforms",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/INCY-DEV/incy-platforms/releases/download/desktop-v3.9.0/incy-windows-portable.zip",
-            "hash": "ffeaceda5ec6115e531d3e821c7bc90d5394c7170eab0b54922100566a422fc4"
+            "url": "https://github.com/INCY-DEV/incy-platforms/releases/download/desktop-v3.9.1/incy-windows-portable.zip",
+            "hash": "3596c545428a6e41117a172c42fd024a4907910c21ffa320ce51f30d75798ac5"
         },
         "arm64": {
-            "url": "https://github.com/INCY-DEV/incy-platforms/releases/download/desktop-v3.9.0/incy-windows-portable.zip",
-            "hash": "ffeaceda5ec6115e531d3e821c7bc90d5394c7170eab0b54922100566a422fc4"
+            "url": "https://github.com/INCY-DEV/incy-platforms/releases/download/desktop-v3.9.1/incy-windows-portable.zip",
+            "hash": "3596c545428a6e41117a172c42fd024a4907910c21ffa320ce51f30d75798ac5"
         }
     },
     "autoupdate": {
@@ -39,9 +39,7 @@
     "uninstaller": {
         "script": ""
     },
-    "persist": [
-        "incy/config"
-    ],
+    "persist": "incy/config",
     "bin": [
         [
             "incy/incy.exe",
